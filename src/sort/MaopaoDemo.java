@@ -15,6 +15,7 @@ public class MaopaoDemo {
 		System.out.println("数据输入完毕，处理中...");
 		maopao(arr2);
 		printArr(arr2);
+		sc.close();
 	}
 
 	public static void maopao(int[] input) {
