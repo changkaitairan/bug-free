@@ -10,7 +10,7 @@ public class MyBornDay {
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("请输入你的出生年月日");
 		 String s = sc.nextLine();
-		 
+		 sc.close();
 		 //先把字符串转换成出生日期
 		 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		 Date bornDay = sdf.parse(s);
